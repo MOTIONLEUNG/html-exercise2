@@ -1,12 +1,12 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0094)https://documents.sessions.edu/eforms/courseware/coursegraphics/web101_images/myweb/video.html -->
+<!-- saved from url=(0095)https://documents.sessions.edu/eforms/courseware/coursegraphics/web101_images/myweb/images.html -->
 <html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>myvlogweb01</title>
 <style type="text/css"> 
 <!-- 
 body  {
-	font: 100%  Helvetica, Verdana, Arial, sans-serif;
+	font: 100% Helvetica, Verdana, Arial, sans-serif;
 	background: #CCCCFF;
 	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
 	padding: 0;
@@ -47,7 +47,7 @@ body  {
 	width: 10em; /* since this element is floated, a width must be given */
 	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
 	padding: 10px 0; /* top and bottom padding create visual space within this div */
-	border: 1px solid black;
+	border: 1px solid #000000;
 }
 .twoColElsLtHdr #sidebar1 h3, .twoColElsLtHdr #sidebar1 p {
 	margin-left: 10px; /* the left and right margin should be given to every element that will be placed in the side columns */
@@ -84,6 +84,7 @@ body  {
 .twoColElsLtHdr #footer { 
 	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
 	background:#ffffff;
+
 } 
 .twoColElsLtHdr #footer p {
 	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
@@ -141,9 +142,15 @@ body  {
 				<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fmotionleung.github.io%2Fmyfirstweb%2Findex.html&width=420&layout=button_count&action=like&size=large&share=true&height=46&appId" width="420" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 			</p>
     <!-- end #sidebar1 --></div>
+	
+	
+	
+	
   <div id="mainContent">
-    <iframe width="480" height="270" src="https://www.youtube.com/embed/CfBb4vcKVmc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>&nbsp;</p>
+	  
+  <!--Flickr Slideshow-->
+  <iframe style="position: relative; top: 0; left: 0; width: 480px; height: 270px;" src="https://flickrembed.com/cms_embed.php?source=flickr&layout=responsive&input=www.flickr.com/photos/188067966@N05/&sort=0&by=user&theme=default&scale=fill&speed=3000&limit=10&skin=default&autoplay=true" scrolling="no" frameborder="0" allowFullScreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"><p><a  href="https://www.vouchersort.co.uk/lookfantastic.com">Look Fantastic</a></p><small>Powered by <a href="https://flickrembed.com">flickr embed</a>.</small></iframe><script type="text/javascript">function showpics(){var a=$("#box").val();$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags="+a+"&tagmode=any&format=json&jsoncallback=?",function(a){$("#images").hide().html(a).fadeIn("fast"),$.each(a.items,function(a,e){$("<img/>").attr("src",e.media.m).appendTo("#images")})})}</script>
+	  
   <!-- end #mainContent --></div>
 	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat">
    <div id="footer">
