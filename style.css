@@ -1,0 +1,56 @@
+body {
+    background-color: #590209;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+    background-color: gray;
+}
+
+.header, .footer {
+	background-color: orange;
+}
+
+h1 {
+    font-family: Times, serif;
+    color: #38687b;
+    font-size: 90px;
+    font-variant: small-caps;
+	letter-spacing: 2px;
+}
+
+h2 {
+	font-style: oblique;
+	color: #590209;
+}
+
+p {
+	font-style: oblique;
+}
+
+.menu ul a {
+	list-style-type: disc;
+	text-decoration: none;
+}
+
+a:link {
+  color: green;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #38687b;
+  font-weight: bold;
+}
+
+
+a:hover {
+  color: #C1D4D9;
+}
+
+a:active {
+  color: #38687b;
+  font-weight: bold;
+}
